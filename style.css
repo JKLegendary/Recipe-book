@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 15px;
+  background: #fff6ee;
+}
+
+h1 {
+  text-align: center;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #ff8c42;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.recipe {
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
