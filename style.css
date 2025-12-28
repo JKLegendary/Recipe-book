@@ -13,6 +13,12 @@ input, textarea, button {
   margin: 6px 0;
   padding: 10px;
   font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  word-wrap: break-word; /* ensures long text wraps */
 }
 
 button {
@@ -27,4 +33,24 @@ button {
   padding: 10px;
   margin-top: 10px;
   border-radius: 8px;
+}
+
+.recipe h3 {
+  cursor: pointer;
+}
+
+.recipeContent {
+  display: none;
+  margin-top: 8px;
+  white-space: pre-wrap; /* wrap long text */
+}
+
+.search input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.categories {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
