@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Recipe Book</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ff8c42">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🍲 My Recipe Book</h1>
+
+  <div class="form">
+    <input id="title" placeholder="Recipe name" />
+    <textarea id="ingredients" placeholder="Ingredients"></textarea>
+    <textarea id="steps" placeholder="Steps"></textarea>
+    <button onclick="addRecipe()">Add Recipe</button>
+  </div>
+
+  <div id="recipes"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
