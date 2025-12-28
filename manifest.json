@@ -1,0 +1,15 @@
+{
+  "name": "My Recipe Book",
+  "short_name": "Recipes",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff6ee",
+  "theme_color": "#ff8c42",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
